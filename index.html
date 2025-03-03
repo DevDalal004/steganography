@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steganography</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Image Steganography</h1>
+    <input type="file" id="imageInput" accept="image/*">
+    <br><br>
+    <textarea id="messageInput" placeholder="Enter secret message"></textarea>
+    <br>
+    <button onclick="encodeMessage()">Encode</button>
+    <button onclick="decodeMessage()">Decode</button>
+    <br><br>
+    <canvas id="canvas"></canvas>
+    <br>
+    <button id="downloadBtn" style="display:none;" onclick="downloadImage()">Download Encoded Image</button>
+    <script src="script.js"></script>
+</body>
+</html>
