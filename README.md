@@ -5,7 +5,7 @@ A web-based tool to encode secret messages into images and decode messages from 
 🚀 How to Set Up and Run the Project
 1.Clone or Download the Repository
  bash
- git clone https://github.com/your-username/image-steganography-app.git
+ git clone (https://github.com/DevDalal004/steganography.git)
  cd image-steganography-app
 
 2. Run the Application
